@@ -1,0 +1,24 @@
+.logo {
+    border-radius: 50%;
+}
+
+body {
+    background-color: rgb(50, 68, 67);
+}
+
+.jumbotron {
+    background-color: rgb(202, 97, 92)
+
+}
+
+.nav-link {
+    color:rgb(50, 68, 67);
+    font-size: 130%;
+}
+
+.jumbotron {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
