@@ -15,7 +15,17 @@ a:link {
 .card {
     border: none;
     background-color: #fba75b;
+}
 
+.card-title {
+    color: white;
+    text-shadow:1px 1px #333;
+}
+
+h1 {
+    color: white;
+    text-shadow:2px 2px #333;
+    
 }
 
 #chefcard {
@@ -59,6 +69,12 @@ a:link {
     transform: translate(-50%, -50%);
     color: white;
     text-shadow:2px 2px #333;
+  }
+
+  .btn {
+      background-color: #ca615c;
+      border: 1px solid black;
+      color: white;
   }
 
   /* My borders showing different div */
