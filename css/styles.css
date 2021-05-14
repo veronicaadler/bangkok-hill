@@ -1,50 +1,93 @@
 .logo {
     border-radius: 50%;
-    border: 5px solid rgb(202, 97, 92)
+    margin-top: .5rem;
 }
-
 body {
-    background-color:rgb(240, 247, 241);
-    font-family: 'Noto Sans TC', sans-serif
+    background-color: #fba75b;
+    font-family: 'Baloo 2', sans-serif;
+    color: black;
 }
 
-.nav-link {
-    color: rgb(240, 247, 241);
+a:link {
     font-size: 130%;
 }
 
-.jumbotron {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgb(240, 247, 241);
-}
-
-.img {
-    max-width: 100%;
-}
-
 .card {
-    flex-direction: row;
-    margin-top: 5%;
-    background-color: rgb(202, 97, 92);
+    border: none;
+    background-color: #fba75b;
+
 }
 
-.card img {
+#chefcard {
+    flex-direction: row;
+    background-color: rgb(251, 167, 91);
+}
+
+#chefcard img {
     width: 50%;
 }
 
-.footer {
-    background-color: rgb(240, 247, 241);
-    margin-top: 2%;
+.card-img-top {
+    height: 30vw;
+    object-fit: cover;
 }
 
-#contactholder {
-    margin-top: 0;
+.bgimage {
+    width:100%;
+    height:100vh;
+    background: url('https://images.unsplash.com/photo-1559314809-0d155014e29e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+  #lowerhero {
+      background-image: url("https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+      height: 100vh;
+    }
+
+.jumbotron {
+    background-color: rgb(251, 167, 91);
 }
 
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow:2px 2px #333;
+  }
 
+  /* My borders showing different div */
+/*.col, div[class^="col-"], label[class^="col-"] {
+    border: 1px solid red;
+    margin: 2px; 
+    
+} 
 
+.row {
+    border: 3px solid blue;
+    padding: 2px;
+    margin: 5px;
+}
 
+.container {
+    border: 3px solid green;
+    padding: 2px;
+    margin: 5px;    
+}
 
+.media {
+    border: 3px solid yellow;
+    padding: 2px;
+    margin: 5px;       
+}  
 
-
+.card {
+    border: 3px solid purple;
+    padding: 2px;
+    margin: 5px;    
+} 
