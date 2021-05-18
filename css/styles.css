@@ -77,17 +77,8 @@ h1 {
       color: white;
   }
 
-.leftalignedcards {
-    flex-direction: row;
-    width: 60%;
-}
-
 .red {
     background-color: #333;
-}
-
-.container {
-    position: relative;
 }
 
 .text-block {
