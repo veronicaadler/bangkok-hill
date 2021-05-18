@@ -6,7 +6,6 @@ A fully responsive, modern Thai restaurant website.
 Bangkok Hill is a restaurant website created as a portfolio project for Nucamp, a web development bootcamp.  It is based on a real Thai restaurant located in Lunenburg, MA.  The project is designed to be a mobile first, fully responsive website that encourages customer engagement and conveys Bangkok Hill's ambience.
 
 ## Frameworks Used
-
 Built with Bootstrap
 
 ## Acknowledgements
