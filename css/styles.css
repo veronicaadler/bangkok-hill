@@ -92,6 +92,11 @@ footer {
     text-shadow: 0px 0px;
 }
 
+thead {
+    border-top: none;
+    font-size: 2rem;
+}
+
 
 /*My borders showing different div */
 /*col, div[class^="col-"], label[class^="col-"] {
