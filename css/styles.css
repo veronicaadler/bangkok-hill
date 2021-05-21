@@ -3,7 +3,7 @@
     margin-top: .5rem;
 }
 body {
-    background-color: #f0f0f0;
+    background-color: #f0f7f0;
     font-family: 'Baloo 2', sans-serif;
     color: black;
 }
@@ -20,12 +20,6 @@ a:link {
 .card-title {
     color: white;
     text-shadow:1px 1px #333;
-}
-
-h1 {
-    color: white;
-    text-shadow:2px 2px #333;
-    
 }
 
 #chefcard {
@@ -87,15 +81,21 @@ footer {
     text-shadow: 1px 1px #333;
 }
 
-#titlecard {
+.regularheadings {
     color: black;
-    text-shadow: 0px 0px;
 }
 
-thead {
+#hours {
     border-top: none;
     font-size: 2rem;
 }
+
+.menuheadings {
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
 
 
 /*My borders showing different div */
