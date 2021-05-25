@@ -96,6 +96,14 @@ footer {
     margin-top: 4rem;
 }
 
+.lowerhero {
+    width: 100%;
+}
+
+.socialbtn {
+    background-color: #324443;
+    border: none;
+}
 
 
 /*My borders showing different div */
