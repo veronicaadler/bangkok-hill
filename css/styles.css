@@ -76,7 +76,7 @@ footer {
   }
 
 
-.table {
+#homepagetable {
     color: white;
     text-shadow: 1px 1px #333;
 }
@@ -104,6 +104,7 @@ footer {
     background-color: #324443;
     border: none;
 }
+
 
 
 /*My borders showing different div */
