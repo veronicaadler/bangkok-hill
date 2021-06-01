@@ -140,7 +140,7 @@ footer {
 }
 
 /*My borders showing different div */
-/*col, div[class^="col-"], label[class^="col-"] {
+col, div[class^="col-"], label[class^="col-"] {
     border: 1px solid red;
     margin: 2px; 
     
